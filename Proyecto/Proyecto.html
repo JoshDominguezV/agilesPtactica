@@ -2,10 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tres Hoteles Diferentes</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+            .card-img-top {
+            height: 200px;
+            object-fit: cover; 
+        }
+    </style>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">NUEVOS HOTELES EN CONSTRUCCION</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 mb-4" id="hotel1">
+                <div class="card">
+                    <img src="hotel1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel de Playa</h5>
+                        <p class="card-text">Ubicado en la costa, perfecto para unas vacaciones relajantes.</p>
+                        <a href="https://marq.mx/es/nuevas-construcciones-de-hoteles-en-cancun/" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4" id="hotel2">
+                <div class="card">
+                    <img src="hotel2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel en el Centro de la Ciudad</h5>
+                        <p class="card-text">Cerca de las principales atracciones y vida nocturna.</p>
+                        <a href="https://puntacana-bavaro.com/business/construccion-de-hoteles-en-al-aumenta-43-rd-con-24-proyectos-en-curso/" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4" id="hotel3">
+                <div class="card">
+                    <img src="hotel3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hotel de Montaña</h5>
+                        <p class="card-text">Rodeado de naturaleza, ideal para los amantes del senderismo.</p>
+                        <a href="https://www.diariodecadiz.es/cadiz/Grupo-insiste-prevision-Tiempo-Libre_0_1687632371.html" class="btn btn-primary">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
